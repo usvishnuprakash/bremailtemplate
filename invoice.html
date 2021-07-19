@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        height: 100%;
+      }
+      table {
+        border-spacing: 0;
+      }
+      .email-wrap {
+        width: 600px;
+      }
+      .footer-1 {
+        width: 60%;
+      }
+      .footer-1-sub {
+        width: 50%;
+      }
+      .address {
+        width: 85%;
+      }
+      .icons {
+        width: 24px;
+        height: 24px;
+        margin: 0 0 0 20px;
+        color: white;
+      }
+      /* invoice */
+      .ride-detailes {
+        width: 50%;
+        height: 400px;
+        background-color: brown;
+      }
+      .bill-detailes {
+        width: 50%;
+        height: 400px;
+        background-color: blue;
+      }
+      .detailes-wrap {
+        display: flex;
+      }
+      @media (min-width: 350px) and (max-width: 600px) {
+        .email-wrap {
+          width: 100%;
+        }
+        .footer-1 {
+          width: 100%;
+        }
+        .footer-1-sub {
+          width: 100%;
+        }
+        .address {
+          width: 80%;
+        }
+      }
+      @media (max-width: 349px) {
+        .email-wrap {
+          width: 100%;
+        }
+        .footer-1 {
+          width: 100%;
+        }
+        .footer-1-sub {
+          width: 100%;
+        }
+        .address {
+          width: 80%;
+        }
+      }
+      @media (min-width: 0px) and (max-width: 480px) {
+        .detailes-wrap {
+          display: block;
+        }
+        .ride-detailes {
+          width: 100%;
+          height: 400px;
+          background-color: brown;
+        }
+        .bill-detailes {
+          width: 100%;
+          height: 400px;
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body style="width: 100%; background-color: #a2dbfa">
+    <table class="email-wrap" style="margin: 0 auto; background-color: white">
+      <tbody>
+        <tr>
+          <th>
+            <table class="head" style="width: 100%; height: 100px; color: blue; background-color: sandybrown; text-align: left; padding: 0 5% 0 5%">
+              <tbody>
+                <tr>
+                  <td style="width: 70%; font-size: 50px">ZervX</td>
+                  <td style="text-align: right">
+                    <p style="font-size: 10px">Total:$43.33</p>
+                    <p style="font-size: 10px">wed,nov 06,2019</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!--  -->
+            <table class="body" width="100%">
+              <tbody>
+                <tr style="background-color: sandybrown">
+                  <th>
+                    <table style="width: 100%; height: 100%; padding: 0 5% 0 5%">
+                      <tr>
+                        <th style="width: 70%">
+                          <p style="padding: 20px 0 20px 0; font-size: 25px; text-align: left">Thanks for riding,steven</p>
+                          <p style="padding: 0px 0 20px 0; font-size: 15px; width: 70%; text-align: left">we are glad to have you as uber Reward Gold Member</p>
+                        </th>
+                        <td>
+                          <table>
+                            <tbody>
+                              <tr style="height: 50%">
+                                <th>
+                                  <table style="width: 100%"></table>
+                                  <table style="width: 100%; max-height: 40px">
+                                    <tbody>
+                                      <tr>
+                                        <th>
+                                          <!-- <img style="height: 40px" src="/carfront.jpg" alt="" /> -->
+                                        </th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </th>
+                </tr>
+                <tr style="height: 100px">
+                  <th>
+                    <table style="padding: 1px 5% 0px 5%; width: 100%">
+                      <tbody>
+                        <tr>
+                          <td style="width: 50%"><p style="text-align: left; font-size: 33px">Total</p></td>
+                          <th style="text-align: right">
+                            <p style="text-align: right; font-size: 33px; margin: 10px 0 10px 0">$43.83</p>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </th>
+                </tr>
+                <tr>
+                  <td><table style="width: 90%; height: 1px; background-color: grey; margin: 0px auto 10px auto"></table></td>
+                </tr>
+                <tr>
+                  <td>
+                    <table style="height: 50px; width: 100%; padding: 0 5% 0 5%">
+                      <tbody>
+                        <tr>
+                          <td style="text-align: left">trip fare</td>
+                          <td style="text-align: right">$38.81</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td><table style="width: 90%; height: 1px; background-color: gray; margin: 10px auto 20px auto"></table></td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <table style="width: 100%; min-height: 200px; padding: 0 5% 10px 5%">
+                      <tbody>
+                        <tr>
+                          <th style="font-size: 20px; text-align: left">Subtotal</th>
+                          <th style="font-size: 20px; text-align: right">$38.81</th>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; font-size: 12px">NY Black car Fund</td>
+                          <td style="text-align: right; font-size: 12px">$38.81</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; font-size: 12px">TNC Assessment fee</td>
+                          <td style="text-align: right; font-size: 12px">$1.59</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; font-size: 12px">wait Time</td>
+                          <td style="text-align: right; font-size: 12px">$0.01</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; font-size: 12px">Tools,SubCahrges and Feess</td>
+                          <td style="text-align: right; font-size: 12px">$2.40</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table style="width: 90%; height: 1px; background-color: gray; margin: 20px auto 20px auto"></table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table style="width: 100%; padding: 0 5% 20px 5%">
+                      <tbody>
+                        <tr>
+                          <td style="text-align: left">Amount Charged</td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: left; font-size: 14px">Zervx Cash</td>
+                          <td style="text-align: right; font-size: 14px; padding-top: 5px; padding-bottom: 15px">$43.86</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!--  -->
+            <table class="fotter" style="width: 100%; height: 300px; background: black">
+              <tbody>
+                <tr>
+                  <th>
+                    <table class="footer-1" style="height: 40%">
+                      <tbody>
+                        <tr>
+                          <th>
+                            <a style="display: inline-block; width: 70%; text-align: left; text-decoration: none; color: white" href="">Help Center</a>
+                          </th>
+                          <th>
+                            <a style="display: inline-block; width: 70%; text-align: left; text-decoration: none; color: white" href="">Privacy</a>
+                          </th>
+                        </tr>
+                        <tr>
+                          <th>
+                            <a style="display: inline-block; width: 70%; text-align: left; text-decoration: none; color: white" href="">Unsubscribe</a>
+                          </th>
+                          <th>
+                            <a style="display: inline-block; width: 70%; text-align: left; text-decoration: none; color: white" href="">Email preference</a>
+                          </th>
+                        </tr>
+                        <tr>
+                          <th>
+                            <a style="display: inline-block; width: 70%; text-align: left; text-decoration: none; color: white" href="">Terms</a>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table class="footer-2" style="margin: 30px 0 0 0; width: 100%; height: 40%">
+                      <tbody>
+                        <tr>
+                          <th style="width: 60%">
+                            <table style="width: 100%">
+                              <tbody>
+                                <tr>
+                                  <th>
+                                    <p
+                                      class="address"
+                                      style="margin: auto; display: inline-block; text-align: left; text-decoration: none; color: white"
+                                      href=""
+                                    >
+                                      BerarkRays
+                                    </p>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>
+                                    <p
+                                      class="address"
+                                      style="margin: auto; display: inline-block; text-align: left; text-decoration: none; color: white"
+                                      href=""
+                                    >
+                                      adayar
+                                    </p>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>
+                                    <p
+                                      class="address"
+                                      style="margin: auto; display: inline-block; text-align: left; text-decoration: none; color: white"
+                                      href=""
+                                    >
+                                      Chennai
+                                    </p>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th>
+                                    <p
+                                      class="address"
+                                      style="margin: auto; display: inline-block; text-align: left; text-decoration: none; color: white"
+                                      href=""
+                                    >
+                                      tamil nadu
+                                    </p>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                          <td style="cursor: pointer">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" viewBox="0 0 320 512" class="icons">
+                              <path
+                                fill="currentColor"
+                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                              ></path>
+                            </svg>
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              data-prefix="fab"
+                              data-icon="linkedin-in"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 448 512"
+                              class="icons"
+                            >
+                              <path
+                                fill="currentColor"
+                                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                              ></path>
+                            </svg>
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              data-prefix="fab"
+                              data-icon="twitter"
+                              role="img"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 512 512"
+                              class="icons"
+                            >
+                              <path
+                                fill="currentColor"
+                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                              ></path>
+                            </svg>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+      console.log(document.documentElement.outerHTML);
+    </script>
+  </body>
+</html>
